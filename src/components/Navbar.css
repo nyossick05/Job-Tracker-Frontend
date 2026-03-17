@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  height: 60px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+  letter-spacing: -0.02em;
+}
+
+.brand-bracket {
+  color: var(--accent);
+}
+
+.brand-text {
+  color: var(--text);
+  margin: 0 2px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar-user {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+.btn-sm {
+  padding: 6px 14px;
+  font-size: 13px;
+}
