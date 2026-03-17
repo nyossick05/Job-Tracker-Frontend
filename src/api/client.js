@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://job-tracker-api-shx3.onrender.com";
 
 const getToken = () => localStorage.getItem("token");
 
